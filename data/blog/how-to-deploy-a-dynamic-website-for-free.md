@@ -1,10 +1,10 @@
 ---
-title: '如何白嫖一个动态网站'
+Title:' How to Make a Dynamic Website in Bai Piao'
 date: '2021/11/27'
 lastmod: '2022/03/21'
-tags: [前端, 后端]
+tags: [Front end]
 draft: false
-summary: '我们知道，想要搭建一个网站往往需要一下几个步骤： 域名注册 服务器购买、 数据库购买或部署、网站设计、 网站开发、网站备案 网站上线、本文将介绍如何用最小的成本和最短时间开发部署一个动态网站。'
+Summary:' We know that it often takes several steps to build a website: domain name registration server purchase, database purchase or deployment, website design, website development, website filing and website online. This article will introduce how to develop and deploy a dynamic website with minimum cost and shortest time.'
 images:
   [
     'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3631817d12ad45ebbf545cf2f2fb9b5e~tplv-k3u1fbpfcp-watermark.image?',
@@ -13,31 +13,31 @@ authors: ['default']
 layout: PostLayout
 ---
 
-## 前言
+##foreword
+# 111
+We know that it often takes several steps to build a website:
 
-我们知道，想要搭建一个网站往往需要一下几个步骤：
+1.domain name registration
+Server purchase
+Database purchase or deployment
+4. Website design
+5. Website development
+6. Website filing
+7. The website is online
 
-1. 域名注册
-2. 服务器购买
-3. 数据库购买或部署
-4. 网站设计
-5. 网站开发
-6. 网站备案
-7. 网站上线
+To launch a website in China, the domain name must be filed. If the domain name is filed, it will take several weeks. After the whole process, it may take months to launch a website. If you choose a cloud server, new users of major cloud platforms will still have discounts in the first year, and it will cost a lot to renew their fees in the next year. This article will introduce how to develop and deploy a dynamic website with minimum cost and shortest time.
 
-在国内上线一个网站，域名还必须得备案，光是域名备案的话还的几个星期，整个流程下来，上线一个网站可能要个把月。若选择云服务器，各大云平台新用户首年还有优惠，次年想要续费得花上不小成本。本文将介绍如何用最小的成本和最短时间开发部署一个动态网站。
+##buy a domain name
 
-## 购买域名
+Free domain names can be selected.[Freenom](https://www.freenom.com/zh/index.html?lang=zh)Of course, you can also choose not to use the domain name. If you choose Vercel deployment, a second-level domain name will be automatically assigned, which is quite useful. Of course, domain name registration is also very cheap, the lowest 1 yuan, and what I choose here is[Tencent cloud](https://cloud.tencent.com/act/double11?spread_hash_key=4ddf7c7810bc0cdc1b7f9c55ab432da1&cps_key=70b0df2059c36f5f53646bd8c2452f81)After purchase, you only need real-name authentication (upload ID card and other information) to directly resolve the domain name.
 
-免费的域名可以选择[Freenom](https://www.freenom.com/zh/index.html?lang=zh)，当然也可以选择不用域名，如果选择 Vercel 部署会自动分配一个二级域名，也挺好用的。当然域名注册也很便宜，最低 1 元，我这边选择的是[腾讯云](https://cloud.tencent.com/act/double11?spread_hash_key=4ddf7c7810bc0cdc1b7f9c55ab432da1&cps_key=70b0df2059c36f5f53646bd8c2452f81)，购买之后只需要实名认证（上传身份证等信息）就可以直接域名解析了。
+##website design
 
-## 网站设计
-
-对于程序员来说，网站设计可能会困扰到大家，大家可以去[dribbble](https://dribbble.com/search/blog)，[站酷](https://www.zcool.com.cn/discover?cate=607&subCate=618)等网站搜索向要实现的 app，挑选一个好看的设计应用到自己的网站中。
+For programmers, website design may bother everyone, so you can go.[dribbble](https://dribbble.com/search/blog)，[Zhanku](https://www.zcool.com.cn/discover?cate=607&subCate=618)Wait for the website to search for the app to be realized, and choose a good-looking design to apply to your website.
 
 ![dribbble 页面截图](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dacf796f96c247e0817de644174ce05f~tplv-k3u1fbpfcp-watermark.image?)
 
-如果你会 TailwindCSS 我推荐 VSCODE 安装 这个插件[tailwind-snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets) 可以快速帮我们来发出一个常用的代码片段，大家可以在 https://www.tailwindsnippets.ml/snippets 查看效果，快速实现我们的 html 页面
+If you know TailwindCSS, I recommend VSCODE to install this plugin.[tailwind-snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets)You can help us to send a common code snippet quickly. You can check the effect in https://www.tailwindsnippets.ml/snippets and quickly realize our html page.
 
 ![tailwind-snippets 预览](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/05c93422411f4becb33077b652739c82~tplv-k3u1fbpfcp-watermark.image?)
 
